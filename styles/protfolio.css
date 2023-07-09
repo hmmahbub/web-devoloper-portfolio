@@ -76,6 +76,8 @@ nav a {
 .banner .profile-pic{
     width: 500px;
     margin-bottom: 0;
+    width: 600px;
+    height: auto;
 }
 .banner-grreting{
     font-size: 45px;
@@ -148,4 +150,28 @@ margin-bottom: 10px;
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    padding: 130px 200px;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact, input[type="text"], .contact [type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 32px;
+    border-radius: 5px;
+    color: #757575;
+    border: 0;
+    width: 100%;
 }
