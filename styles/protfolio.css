@@ -75,7 +75,7 @@ nav a {
 }
 .banner .profile-pic{
     margin-bottom: 0;
-    width: 700px;
+    width: 550px;
     height: auto;
 }
 .banner-grreting{
@@ -175,9 +175,6 @@ footer{
     width: 100%;
 }
 
-
-
-
 /* responsive style */
 
 @media screen and (max-width: 576px) {
@@ -192,11 +189,12 @@ footer{
 
     .banner{
             flex-direction: column;
-            padding: 0px;
             text-align: center;
+            padding: 0px;
     }
     nav{
         flex-direction: column;
+        padding: 0px;
     }
 
     .banner-title{
@@ -205,8 +203,8 @@ footer{
     .btn-primary{
         width: 150px;
     }
-    .banner, .profile-pic {
-        margin-bottom: 20px;
+    .banner .profile-pic {
+        width: 450px;
     }
     .about-info-container{
         flex-direction: column;
@@ -229,5 +227,8 @@ footer{
 
     .social-links a{
         margin: 20px;
+    }
+    .resume-container{
+        text-align: center;
     }
 }
